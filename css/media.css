@@ -1,7 +1,45 @@
-@media only screen and (max-width:800px){
-    
+@media only screen and (max-width: 800px) {
+  .container {
+    padding: 0 20px;
+  }
+  .slogan-img {
+    display: none;
+  }
+
+  .navbar {
+    flex-direction: column;
+  }
+
+  .brand {
+    justify-content: center;
+    order: -1;
+    margin-bottom: 30px;
+  }
 }
 
-@media only screen and (max-width:500px){
+@media only screen and (max-width: 500px) {
+  .nav {
+    flex-direction: column;
+  }
 
+  .nav-item {
+    border-top: 1px solid lightgray;
+    padding: 20px 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .nav-item:last-child {
+    border-bottom: 1px solid lightgray;
+  }
+
+  .features,
+  .services {
+    flex-direction: column;
+  }
+
+  .features .card,
+  .services .card {
+    width: 100%;
+  }
 }
