@@ -1,4 +1,16 @@
 @media only screen and (max-width: 800px) {
+  .bot {
+    flex-direction: column;
+  }
+
+  .bot .card {
+    width: 100%;
+  }
+
+  .services-info-img {
+    width: 100%;
+    height: auto;
+  }
 }
 
 @media only screen and (max-width: 500px) {
